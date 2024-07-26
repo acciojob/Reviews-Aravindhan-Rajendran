@@ -61,7 +61,7 @@ const Review = () => {
       <img className="person-img" src={image} alt={name} />
       <button type="button" className="prev-btn" onClick={prevReview}>Previous</button>
       <button type="button" className="next-btn" onClick={nextReview}>Next</button>
-      <button type="button" className="random-btn" onClick={randomReview}>Surprise Me</button>
+      <button type="button" className="random-btn" onClick={randomReview}>surprise me</button>
     </div>
   );
 };
